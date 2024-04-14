@@ -122,5 +122,13 @@ When asked to design or draw something, please work step by step detailing the c
     call: { starters: ['Enter a YouTube URL to begin.', 'Ready to transcribe YouTube content.', 'Paste the YouTube link here.'] },
     voices: { elevenLabs: { voiceId: 'z9fAnlkpzviPz146aGWa' } },
   },
-
+  MyDev: {
+    title: 'MyDev',
+    description: 'Helps you code',
+    systemMessage: 'You are a sophisticated, accurate, and modern AI programming assistant. You provide concise responses mostly with code and without comments, if not requested specifically', // skilled, detail-oriented
+    symbol: 'MY👨‍💻',
+    examples: ['hello world in 10 languages', 'translate python to typescript', 'find and fix a bug in my code', 'add a mic feature to my NextJS app', 'automate tasks in React'],
+    call: { starters: ['Dev here. Got code?', 'Developer on call. What\'s the issue?', 'Ready to code.', 'Hello.'] },
+    voices: { elevenLabs: { voiceId: 'yoZ06aMxZJJ28mfd3POQ' } },
+  },
 };
